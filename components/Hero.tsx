@@ -14,17 +14,17 @@ const Hero: React.FC = () => {
           </h1>
         </div>
 
-        <p className={`${styles.paragraph} max-w-[600px] mt-20 mr-32`}>
-        <span className="text-white ss:text-[20px] text-[20px]" >
+        {/* <p className={`${styles.paragraph} max-w-[600px] mt-20 mr-32`}> */}
+        <span className="text-white ss:text-[20px] text-[20px] max-w-[800px] mt-20 mr-52" >
           Hey there! We wanted to share an exciting opportunity with you. 
-          We've created a DApp aggregating the best pricing for Link and DAI on DeFi exchanges like Uniswap.
+          We've created a DApp aggregating the best pricing for exchanges like Uniswap.
           It could be a great way to capitalize on profitable arbitrage opportunities.</span>
         {/* gradient start */}
         <div className="absolute z-[0] w-[30%] h-[35%] pink__gradient" />
         <div className="absolute z-[1] w-[30%] h-[30%] white__gradient bottom-20" />
         <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
         {/* gradient end */}
-        </p>
+        {/* </p> */}
       </div>
     </section>
   );
